@@ -1,0 +1,17 @@
+html,body,#root {
+    display:table;
+    width: 100%;
+    height: 100%;
+    margin: 0!important;
+    padding: 0!important;
+}
+
+body {
+    background: -webkit-linear-gradient(360deg, #01a99c 10%, #0698b1 360%);
+    background: -moz-linear-gradient(360deg, #01a99c 10%, #0698b1 360%);
+    background: linear-gradient(360deg, #01a99c 10%, #0698b1 360%);
+    background-image: url('/gfx/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

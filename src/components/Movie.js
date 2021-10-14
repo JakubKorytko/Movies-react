@@ -27,7 +27,7 @@ class Movie extends Component {
     render() {
         var stars = [];
         for (let i=0; i<5; i++) {
-            stars.push(<div key={i} onClick={() => {this.setRating(i+1)}} onMouseOut={this.blurStar} onMouseOver={() => {this.hoverStar(i+1)}} style={{backgroundImage: "url('gfx/"+(i>=this.state.trialRating?"empty_":"")+"star.png')"}} className="star"></div>)
+            stars.push(<div key={i} onClick={() => {this.setRating(i+1)}} onMouseOut={this.blurStar} onMouseOver={() => {this.hoverStar(i+1)}} style={{backgroundImage: "url('./gfx/"+(i>=this.state.trialRating?"empty_":"")+"star.png')"}} className="star"></div>)
         }
         return (
             <div className="movie">
